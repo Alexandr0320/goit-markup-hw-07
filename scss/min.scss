@@ -3,11 +3,11 @@
 
 @import "../scss/base/reset-styles";
 
+@import "../scss/layout/body";
+@import "../scss/layout/container";
 @import "../scss/layout/page-header";
 @import "../scss/layout/footer";
 
-@import "../scss/components/body";
-@import "../scss/components/container";
 @import "../scss/components/logotype";
 @import "../scss/components/connections-header";
 @import "../scss/components/hero";
@@ -15,9 +15,8 @@
 @import "../scss/components/advantage";
 @import "../scss/components/occupation";
 @import "../scss/components/team";
-@import "../scss/components/icons-list-team";
+@import "../scss/components/icons-list";
 @import "../scss/components/clients-list";
-
 @import "../scss/components/address";
 @import "../scss/components/footer-form";
 @import "../scss/components/backdrop";
