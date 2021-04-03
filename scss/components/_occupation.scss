@@ -2,19 +2,21 @@
   padding-bottom: var(--section-pb);
 }
 
-.occupation .occupation-list {
+.occupation__list {
   display: flex;
   margin-left: calc(-1 * var(--card-set-gap));
   margin-top: calc(-1 * var(--card-set-gap));
 }
 
-.occupation-list > .occupation-item {
+.occupation__item {
+  position: relative;
+
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
 }
 
-.occuation-title {
+.occuation__title {
   color: var(--accent-text-color);
   font-weight: bold;
   font-size: 36px;
@@ -24,19 +26,13 @@
   margin-bottom: 50px;
 }
 
-.occupation-item {
-  position: relative;
-}
+.occupation__development {
+  position: absolute;
 
-.occupation-inscription {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
-}
-
-.occupation-inscription {
-  position: absolute;
 
   width: 100%;
   bottom: 0;

@@ -7,9 +7,18 @@
   line-height: 1.19;
 }
 
-.logo-studio {
+.logo__text_accent-text-color {
   font-family: "Raleway", sans-serif;
   color: var(--accent-text-color);
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo__text_background-color {
+  font-family: "Raleway", sans-serif;
+  color: var(--background-color);
 
   font-weight: bold;
   font-size: 26px;
